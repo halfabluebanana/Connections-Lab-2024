@@ -29,6 +29,15 @@ body {
   margin-top: -20px;
 }
 
+.project_status {
+  color: azure;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  padding-top: 150px;
+}
+
 .footer {
   padding-top: 10px;
   font-size: smaller;
