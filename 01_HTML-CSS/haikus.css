@@ -1,0 +1,42 @@
+.haikus_left{
+    /* margin: 3em; */
+    opacity: 0.5;
+    /* height: 0.5em;  */
+    margin-top: 0px;
+    /* padding-top: 5px; */
+    /* margin-bottom: 5px; */
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+      }
+
+.haikus_right{
+        text-align: right;
+        /* margin: 3em; */
+        opacity: 0.5;
+        margin-right: 80px;
+        /* height: auto; */
+        /* margin-top: 50px; */
+        /* padding-top: 5px; */
+        /* margin-bottom: 5px; */
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 18px;
+        font-weight: 300;
+        font-style: italic;
+          }
+  
+
+  @keyframes scale {
+    0% {
+      font-weight: 100;
+    }
+    100% {
+      font-weight: 1000;
+    }
+  }
+  
+  .element {
+    font-size: 15vw;
+    animation: 4s ease-out scale alternate infinite;
+  }

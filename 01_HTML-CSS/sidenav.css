@@ -1,0 +1,77 @@
+@media media-type and (min-width: 390px) and (max-width: 767px) {
+    .header {
+      background-color: var(--nav-color);
+      font-size: 1rem;
+      font-family: "IBM Plex Mono", monospace;
+      height: auto;
+    }
+  }
+
+ :root {
+    --nav-color: ##D3D3D3;
+    /*light gray*/
+    --nav-text: #E5E4E2;
+    /*platinum*/
+    --primary-color: #C0C0C0;
+    /*silver*/
+    --secondary-color: ##848884;
+    /*smoke*/
+    --hover-color: ##E5E4E2;
+    /*platinum*/
+  }
+
+
+.navbar-title {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .navbar-right{
+    /* display: block; */
+    position: fixed;
+    z-index: 100;
+    height: auto;
+    /* align-content: flex-end; */
+    width: auto;
+    float: right;
+  }
+  
+  /* .navbar-right ul {
+    display: flex;
+  }
+   */
+
+  .navbar-right ul li {
+    list-style-type: none;
+    padding: 1.3em 80vw;
+    /* padding-bottom: 20vh; */
+    text-align: right;
+  }
+  
+  .header .navbar-right {
+    flex-direction: column;
+  } 
+  
+  /* .header .navbar-right ul li {
+    padding: 100px;
+    margin: 0px 100px;
+  }
+   */
+  .navbar-right a {
+    color: var(--nav--text);
+    font-weight: 300;
+  }
+  
+  .navbar-right a:hover {
+    color: black;
+    background-color: #E5E4E2;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+  }
+  
+  .header .navbar-right {
+    justify-content: space-between;
+  }
+  
